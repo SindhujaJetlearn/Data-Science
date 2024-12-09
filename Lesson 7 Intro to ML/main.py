@@ -1,4 +1,5 @@
 # Data Preprocessing Tools
+#pip install scikit-learn 
 
 # Importing the libraries
 import numpy as np
@@ -40,7 +41,6 @@ X = pd.DataFrame(ct.fit_transform(X))
 print("One hot encoding :\n ", X)
 print()
 
-
 # Encoding the Dependent Variable - Target has to be 1D so shouldnt use encoder
 from sklearn.preprocessing import LabelEncoder 
 #Yes - 1 and No - 0
@@ -51,6 +51,7 @@ print()
 
 # Splitting the dataset into the Training set and Test set
 from sklearn.model_selection import train_test_split
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 1)
 print("Xtrain : \n",X_train)
 print("Xtest : \n ",X_test)
@@ -70,3 +71,19 @@ X_test.iloc[:, 1:3] = sc.transform(X_test.iloc[:, 1:3])
 print("After scaling the values from -1 to 1 :\n ")
 print(X_train)
 print(X_test)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

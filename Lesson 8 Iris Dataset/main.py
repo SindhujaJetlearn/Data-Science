@@ -45,6 +45,8 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.2, rando
 
 print(X_train.shape)
 print(X_test.shape)
+print(Y_train.shape)
+print(Y_test.shape)
 
 model = DecisionTreeClassifier(max_depth = 3, random_state = 1)
 

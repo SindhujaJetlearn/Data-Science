@@ -40,17 +40,17 @@ The concepts to be discussed are as follows -
     c) Recommendation
        based on experince
        ex: Netflix
-    # Explain the concept of each problem type with real life scenarios / examples
+    
 
 5) Steps to be followed in a Machine Leanring Project - 
     a) Gathering the data and load the data into the program
     b) Data Preprocessing - prepare the data for further machine learning projects
     c) Data Analysis - Analyse the data so that you can define your input and output columns and drop the rest
     d) Define Input and Output - Create separate dataframes for input - output 
-    e) Perform the test-train split - Split up the data into testing and training data , Explain the use of training and testing data
+    e) Perform the test-train split - Split up the data into testing and training data
     f) Select the machine learning algorithm perform the training of the model.
     g) Perform predictions and compare the predictions with actual result to calculate accuracy.
 
-    # Breifly explain the use and concept behind the steps, explain terms such as accuracy, predictions etc which are used in above steps
+   
 
 

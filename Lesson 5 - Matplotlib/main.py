@@ -26,6 +26,7 @@ plt.title("Sample Graph")
 plt.legend()
 plt.show()
 
+#multiple plots
 import numpy as np
 
 x = np.arange(0, 10, 0.2)
